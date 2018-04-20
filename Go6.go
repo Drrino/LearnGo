@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+ * go没有三目运算符，需使用完整的if判断
+ */
 func main()  {
 	if 7 % 2==0 {
 		fmt.Println("7 is even")
